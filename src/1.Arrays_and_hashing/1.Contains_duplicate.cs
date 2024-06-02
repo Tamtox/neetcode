@@ -1,6 +1,5 @@
-public class Solution
-{
-    public bool hasDuplicate(int[] nums)
+public class Solution {
+    public bool ContainsDuplicate(int[] nums)
     {
         Dictionary<int, bool> dict = new Dictionary<int, bool>();
         foreach (int num in nums)
